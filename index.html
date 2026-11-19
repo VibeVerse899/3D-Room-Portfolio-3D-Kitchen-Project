@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>3D Room Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Three.js Import Map -->
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+        }
+    }
+    </script>
+
+</head>
+
+<body>
+
+    <main class="portfolio">
+
+        <!-- Header -->
+        <header class="header">
+
+            <h1>3D Room Portfolio</h1>
+
+            <p>Creative Interior Architecture</p>
+
+        </header>
+
+        <!-- 3D Room Section -->
+        <section class="room-section">
+
+            <div id="room-container"></div>
+
+            <!-- Animation Controls -->
+            <div class="controls">
+
+                <button id="playAnimation">
+                    Play Animation
+                </button>
+
+                <button id="resetRoom">
+                    Reset Room
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- Footer -->
+        <footer>
+
+            <p>Designed with Three.js & GSAP</p>
+
+            <span>2026</span>
+
+        </footer>
+
+    </main>
+
+    <!-- JavaScript -->
+    <script type="module" src="script.js"></script>
+
+</body>
+
+</html>
+
